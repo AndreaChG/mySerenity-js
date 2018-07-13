@@ -20,7 +20,7 @@
     "protractor",
     "cucumber"
   ],
-  "author": "Jan Molak <jan.molak@smartcodeltd.co.uk>",
+  "author": "Andrea Chang",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/serenity-js/tutorial-from-scripts-to-serenity/issues"
@@ -36,13 +36,14 @@
     "cucumber": "1.3.2",
     "glob": "7.1.2",
     "npm-failsafe": "^0.2.1",
-    "protractor": "5.1.2",
-    "protractor-cucumber-framework": "3.1.2",
+    "protractor": "^5.3.2",
+    "protractor-cucumber-framework": "^3.1.2",
     "rimraf": "^2.5.4",
-    "serenity-cli": ">= 0.4.0",
-    "serenity-js": ">= 1.7.0",
-    "ts-node": "3.0.6",
+    "serenity-cli": "0.9.0",
+    "serenity-js": "^1.10.13",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^3.0.6",
     "tslint": "5.4.3",
-    "typescript": "2.4.0"
+    "typescript": "^2.4.0"
   }
 }

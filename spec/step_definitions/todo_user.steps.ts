@@ -2,10 +2,10 @@ import { Actor, BrowseTheWeb } from 'serenity-js/lib/screenplay-protractor';
 import { protractor } from 'protractor';
 import { serenity } from 'serenity-js';
 
-import { Start, AddATodoItem } from '../../spec/screenplay/tasks';
-import { listOf } from '../../spec/text';
-import { expect } from '../../spec/expect';
-import { TodoList } from '../../spec/screenplay/components/todo_list';
+import { Start, AddATodoItem } from '../tasks';
+import { listOf } from '../support/text';
+import { expect } from '../support/expect';
+import { TodoList } from '../user_interface/todo_list';
 
 export = function todoUserSteps() {
 

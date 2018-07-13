@@ -1,6 +1,6 @@
 import { Enter, PerformsTasks, Task, step } from 'serenity-js/lib/screenplay-protractor'; // imports the @step
 import { protractor } from 'protractor';
-import { TodoList } from '../components/todo_list';
+import { TodoList } from '../user_interface/todo_list';
 
 export class AddATodoItem implements Task {
 

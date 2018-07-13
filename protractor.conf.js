@@ -24,7 +24,7 @@ exports.config = {
     specs: [ 'features/**/*.feature' ],
 
     cucumberOpts: {
-        require:    [ 'features/**/*.ts' ],
+        require:    [ 'spec/**/*.ts' ],
         format:     'pretty',
         compiler:   'ts:ts-node/register'
     },
@@ -33,7 +33,8 @@ exports.config = {
         browserName: 'chrome',
         chromeOptions: {
             args: [
-                'disable-infobars'
+                'disable-infobars',
+                'start-fullscreen'
                 // 'incognito',
                 // 'disable-extensions',
                 // 'show-fps-counter=true'

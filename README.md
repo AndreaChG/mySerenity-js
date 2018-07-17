@@ -1,2 +1,2 @@
 
-This project does not belogn to me. I follow the tutorial from serenity.js
+This project does not belongs to me. I follow the tutorial from serenity.js
